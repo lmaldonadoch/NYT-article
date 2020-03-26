@@ -1,24 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
 *, *::before, *::after {
     margin: 0;
     padding: 0;
     box-sizing: content-box;
 }
-.wrapper{
-    width: 1600px;
-    margin: 0 auto;
+
+body{
+    font-family: 'Libre Franklin', Arial, Helvetica, sans-serif;
 }
+
+/*NavBar*/
+
 .nav{
     display: grid;
     grid-template-columns: 33.33% 33.33% 33.33%;
-    align-content: space-between;    
+    align-content: space-between; 
+    height: 40px; 
 }
+
 .left_navbar{
     display: grid;
     grid-template-columns: 45px 45px 1fr;
     align-content: center;
     justify-content: center;
-    padding-left: 30px
+    padding-left: 20px
 }
+
 .space_cosmos{
     text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.center_navbar{
+    justify-self: center;
+}
+
+.logo{
+    
+}
+
+.right_navbar{
+    justify-self: end;
+    align-items: center;
+    padding: 5px 20px 0 0;
+}
+
+.navbar_buttons{
+    border: none;
+    background: #567B95;
+    color: #fff;
+    font-size: 11px;
+    font-weight: bold;
+    border-radius: 4px;
+    height: 32px;
+    width: fit-content;
+    padding: 0px 10px;
+}
+
+/*Headder*/
+
+.header{
+    margin: 45px auto 0 auto;
+    max-width: 945px;
+}
+
+.title{
+    font-family: 'Sorts Mill Goudy', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 387px;
+    font-style: italic;
+    font-size: 16px;
+    padding: 0 0 30px 170px;
+}
+
+.article_image{
+    max-width: 945px;
+    max-height: 530px;
 }
