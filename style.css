@@ -17,6 +17,7 @@ body{
     grid-template-columns: 33.33% 33.33% 33.33%;
     align-content: space-between; 
     height: 40px; 
+    border-bottom: solid 1px lightgray;
 }
 
 .left_navbar{
@@ -63,7 +64,8 @@ body{
 /*Headder*/
 
 .header{
-    margin: 45px auto 0 auto;
+    margin: auto;
+    margin-top:45px;
     max-width: 945px;
 }
 
@@ -76,6 +78,12 @@ body{
 }
 
 .article_image{
-    max-width: 945px;
-    max-height: 530px;
+    max-width: 1200px;
+    max-height: 675px;
+}
+
+.header_image_note{
+    font-size: 13px;
+    color:gray;
+
 }
