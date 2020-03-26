@@ -3,4 +3,22 @@
     padding: 0;
     box-sizing: content-box;
 }
-
+.wrapper{
+    width: 1600px;
+    margin: 0 auto;
+}
+.nav{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    align-content: space-between;    
+}
+.left_navbar{
+    display: grid;
+    grid-template-columns: 45px 45px 1fr;
+    align-content: center;
+    justify-content: center;
+    padding-left: 30px
+}
+.space_cosmos{
+    text-decoration: none;
+}
