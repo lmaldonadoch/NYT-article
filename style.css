@@ -207,7 +207,8 @@ body {
   padding-top: 20px;
 }
 
-.aticle_footnote, .footer_article_date {
+.aticle_footnote,
+.footer_article_date {
   margin-top: 20px;
   font-size: 11px;
   color: #747482;
