@@ -116,7 +116,7 @@ body{
 }
 
 .author_name{
-    font-family: 'Libre Franklin', sans-serif; 
+    font-family: 'Libre Franklin', sans-serif;
     font-size: 13px;
     font-weight: bold;
     grid-area: 1 / 1 / 2 / 2;
@@ -170,14 +170,45 @@ body{
 }
 
 .aticle_links{
-    color: lightblue;
+    color: #3268A2;
 }
 
 .unlock_article_hr{
-    margin: auto;
+    color: #cccccc;
+    background: #cccccc;
+    border: #cccccc;
+    margin: 5px auto;
     max-width: 70px;
+    height: 1px;
+}
+
+.unlock_article_wrapper{
+    text-align: center;
+    margin: 18px auto;
+    width: 100%;
+    max-width: 600px;
 }
 
 .unlock_article{
-    
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.unlock_article_link{
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    text-decoration: none;
+    color: #3268A2;
+}
+
+.as_big{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+.theory{
+    margin:20px 0 0 -175px;
 }
