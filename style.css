@@ -250,9 +250,13 @@ body{
 }
 
 .more_articles_wrapper{
+    border: solid 1px brown;
     display: flex;
     flex-direction: column;
     height: 1056px;
+    width: 1200px;
+    margin: auto;
+    flex-wrap: wrap;
 }
 
 .footer_articles{
@@ -260,4 +264,29 @@ body{
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-gap: 20px;
+    width: 852px;
+    height: 634px;
+    border: solid 1px blue;
+
+}
+
+.footer_article_image_img{
+    width: 273px;
+    height: 182px;
+}
+
+.most_popular{
+    width: 250px;
+    border: solid 1px  yellow;
+}
+
+.most_popular_links{
+text-decoration: none;
+font-size: 15px;
+color: gray;
+}
+
+.most_popular_links_p{
+    padding: 10px 0;
+    border: solid 1px #e2e2e2;   
 }
