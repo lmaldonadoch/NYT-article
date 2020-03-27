@@ -9,7 +9,7 @@ body {
     font-family: 'Libre Franklin', sans-serif;
 }
 
-.navbar_wrapper{
+.navbar_wrapper {
     display: flex;
     justify-content: center;
     border-bottom: solid 1px lightgray;
@@ -18,8 +18,8 @@ body {
 .nav {
     display: grid;
     grid-template-columns: 33.33% 33.33% 33.33%;
-    align-content: space-between; 
-    height: 40px; 
+    align-content: space-between;
+    height: 40px;
     width: 100%;
     max-width: 1630px;
 }
@@ -29,7 +29,7 @@ body {
     grid-template-columns: 45px 45px 1fr;
     align-content: center;
     justify-content: center;
-    padding-left: 20px
+    padding-left: 20px;
 }
 
 .space_cosmos {
@@ -51,7 +51,7 @@ body {
 
 .navbar_buttons {
     border: none;
-    background: #567B95;
+    background: #567b95;
     color: #fff;
     font-size: 11px;
     font-weight: bold;
@@ -88,7 +88,7 @@ body {
 }
 
 .credit {
-    color: #9EA9AD;
+    color: #9ea9ad;
     font-size: 13px;
 }
 
@@ -128,7 +128,7 @@ body {
 }
 
 .social_media_icons {
-    background-color: #eeeeee;
+    background-color: #eee;
     border-radius: 50%;
     margin:0 10px;
     padding:2px 5px;
@@ -158,13 +158,13 @@ body {
 }
 
 .aticle_links {
-    color: #3268A2;
+    color: #3268a2;
 }
 
 .unlock_article_hr {
-    color: #cccccc;
-    background: #cccccc;
-    border: #cccccc;
+    color: #ccc;
+    background: #ccc;
+    border: #ccc;
     margin: 5px auto;
     max-width: 70px;
     height: 1px;
@@ -188,7 +188,7 @@ body {
     font-weight: bold;
     font-size: 13px;
     text-decoration: none;
-    color: #3268A2;
+    color: #3268a2;
 }
 
 .as_big {
@@ -230,7 +230,7 @@ body {
     width: 330px;
     height: 36px;
     border: none;
-    background: #567B95;
+    background: #567b95;
     color: #fff;
     font-size: 13px;
     font-weight: bold;
@@ -283,7 +283,7 @@ body {
 
 .most_popular_links_p {
     padding: 10px 0;
-    border-top: solid 1px #e2e2e2;   
+    border-top: solid 1px #e2e2e2;
 }
 
 .editors_pick {
@@ -343,7 +343,7 @@ h5 {
 .footer_homepage {
     font-size: 10px;
     text-decoration: none;
-    color: #567B95;
+    color: #567b95;
     float: right;
     margin-top: 20px;
 }
@@ -352,7 +352,6 @@ h5 {
     text-decoration: none;
     font-size: 11px;
     color: black;
-
 }
 
 .right_footer_top {
@@ -366,7 +365,7 @@ h5 {
 
 .right_footer_low {
     margin-top: 5px;
-    border-top: solid 1px #e2e2e2; 
+    border-top: solid 1px #e2e2e2;
 }
 
 .right_footer_list_small {
