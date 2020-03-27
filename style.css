@@ -325,4 +325,70 @@ h3 {
 .footer_sections{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    max-width: 1340px;
+}
+
+.other_links{
+    text-decoration: none;
+    font-size: 12px;
+    color: black;
+}
+.footer{
+    max-width: 1340px;
+    margin: auto;
+    border-top: solid 3px #e2e2e2;
+
+}
+
+.ul{
+    list-style: none;
+    line-height: 25px;
+}
+
+h5{
+    margin: 10px 0;
+    font-size: 11px;
+}
+
+.right_footer{
+    border-left: solid 1px #e2e2e2;
+    padding-left: 10px;
+}
+
+.footer_homepage{
+    font-size: 8px;
+    text-decoration: none;
+    color: blue;
+    float: right;
+}
+
+.right_footer_list{
+    text-decoration: none;
+    font-size: 11px;
+    color: black;
+
+}
+
+.right_footer_top{
+    margin: 10px 0;
+}
+
+.footer_footer_list{
+    list-style: none;
+}
+
+.right_footer_low{
+    margin-top: 5px;
+    border-top: solid 1px #e2e2e2; 
+}
+
+.right_footer_list_small{
+    
+    text-decoration: none;
+    font-size: 10px;
+    color: black;
+}
+
+.right_footer_list{
+display: inline;
 }
