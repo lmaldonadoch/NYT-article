@@ -11,7 +11,7 @@
 
 
 
-This project was on New York Times Article. we learn how to position different elements using grid , flex and float.
+This project was on a New York Times Article. We learnt how to position different elements using grid, flex and float.
 
 ## Built With
 
@@ -29,15 +29,8 @@ This project was on New York Times Article. we learn how to position different e
 
 To get a local copy up and running follow these simple example steps.
 
-### Open a web browser
-
-### Visit Repository
 
 ### Download Repository (https://github.com/lmaldonadoch/NYT-article/tree/features )
-
-### Run index.html file
-
-
 
 
 ## Authors
@@ -48,11 +41,9 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@engfahadumer](https://twitter.com/engfahadumer)
 - Linkedin: [linkedin](https://www.linkedin.com/in/engineer-muhammad-fahad-e-umer-08813055/)
 
-👤 **Author2**
+👤 **Luis Angel Maldonado**
 
-- Github: [@MFahadUmer](https://github.com/MFahadUmer)
-- Twitter: [@engfahadumer](https://twitter.com/engfahadumer)
-- Linkedin: [linkedin](https://www.linkedin.com/in/engineer-muhammad-fahad-e-umer-08813055/)
+- Github: [@lmaldonadoch](https://github.com/lmaldonadoch)
 
 ## 🤝 Contributing
 
