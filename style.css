@@ -337,6 +337,7 @@ h3 {
     max-width: 1340px;
     margin: auto;
     border-top: solid 3px #e2e2e2;
+    border-bottom: solid 1px #e2e2e2;
 
 }
 
@@ -356,10 +357,11 @@ h5{
 }
 
 .footer_homepage{
-    font-size: 8px;
+    font-size: 10px;
     text-decoration: none;
-    color: blue;
+    color: #567B95;
     float: right;
+    margin-top: 20px;
 }
 
 .right_footer_list{
@@ -371,6 +373,7 @@ h5{
 
 .right_footer_top{
     margin: 10px 0;
+    font-weight: bold;
 }
 
 .footer_footer_list{
@@ -392,3 +395,38 @@ h5{
 .right_footer_list{
 display: inline;
 }
+
+.footer_footer{
+    text-align: center;
+    max-width: 1340px;
+    margin: 20px auto;
+}
+
+.ul_footer{
+    display: inline-flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.footer_footer_list{
+    text-decoration: none;
+    color: #747482;
+    font-size: 11px;
+    padding: 0 7px;
+}
+
+.coronavirus_updates{
+    height: 55px;
+    text-align: center;
+    border-top: black solid 1px;
+    width: 100%;
+    font-size: 13px;
+    padding-top: 10px;
+}
+
+.expand{
+    font-weight: bold;
+    float: right;
+    margin-top: -20px;
+}
+
