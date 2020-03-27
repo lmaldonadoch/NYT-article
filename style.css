@@ -156,6 +156,11 @@ body{
 .article_main{
 }
 
+.small_images_article{
+    padding-top: 20px;
+    max-width: 100%;
+}
+
 .article{
     max-width: 600px;
     margin: auto;
@@ -419,13 +424,14 @@ display: inline;
     border-top: black solid 1px;
     width: 100%;
     font-size: 13px;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 .expand{
     font-weight: bold;
     float: right;
     margin-top: -20px;
+    padding-right: 25%;
 }
 
 .sidebar{
