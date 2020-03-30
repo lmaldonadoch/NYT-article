@@ -204,9 +204,17 @@ body {
 .theory_wrapper {
 	width: 945px;
 	height: 720px;
+	margin: 20px -175px 100px -175px;
 }
 
--inflation_title_title {
+.inflation_title_title {
+	font-family: "Goudy Bookletter 1911", serif;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.inflation_paragrpah {
+	margin-bottom: 25px;
 }
 
 .theory {
