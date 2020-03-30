@@ -7,13 +7,18 @@
 }
 
 body {
-  font-family: 'Libre Franklin', sans-serif;
+  font-family: "Libre Franklin", sans-serif;
 }
 
 .navbar_wrapper {
   display: flex;
   justify-content: center;
   border-bottom: solid 1px lightgray;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
 }
 
 .nav {
@@ -63,12 +68,12 @@ body {
 }
 
 .header {
-  margin: 30px auto 0 auto;
+  margin: 80px auto 0 auto;
   max-width: 1200px;
 }
 
 .title {
-  font-family: 'Goudy Bookletter 1911', serif;
+  font-family: "Goudy Bookletter 1911", serif;
   max-width: 387px;
   font-style: italic;
   font-size: 19px;
@@ -105,7 +110,6 @@ body {
 }
 
 .author_name {
-  font-family: 'Libre Franklin', sans-serif;
   font-size: 13px;
   font-weight: bold;
   grid-area: 1 / 1 / 2 / 2;
@@ -155,7 +159,7 @@ body {
 
 .article > p {
   padding-top: 20px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 1.37rem;
 }
 
@@ -180,13 +184,11 @@ body {
 }
 
 .unlock_article {
-  font-family: 'Libre Franklin', sans-serif;
   font-weight: bold;
   font-size: 13px;
 }
 
 .unlock_article_link {
-  font-family: 'Libre Franklin', sans-serif;
   font-weight: bold;
   font-size: 13px;
   text-decoration: none;
@@ -194,7 +196,7 @@ body {
 }
 
 .as_big {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   margin-top: 20px;
   font-size: 22px;
 }
@@ -262,7 +264,6 @@ body {
 .footer_article_image_desc {
   text-decoration: none;
   color: black;
-  font-family: 'Libre Franklin', sans-serif;
 }
 
 .footer_article_date {
@@ -274,7 +275,6 @@ body {
 }
 
 .most_popular_links {
-  font-family: 'Libre Franklin', sans-serif;
   text-decoration: none;
   font-size: 19px;
   color: black;
@@ -382,7 +382,7 @@ h5 {
 .footer_footer {
   text-align: center;
   max-width: 1340px;
-  margin: 20px auto;
+  margin: 20px auto 100px auto;
 }
 
 .ul_footer {
@@ -398,6 +398,9 @@ h5 {
   width: 100%;
   font-size: 13px;
   padding-top: 20px;
+  position: fixed;
+  bottom: 0;
+  background-color: white;
 }
 
 .expand {
@@ -428,7 +431,7 @@ h5 {
 }
 
 .sidebar_links_a {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   margin-left: 10px;
   font-size: 15px;
   color: black;
@@ -438,4 +441,7 @@ h5 {
 h6 {
   border-bottom: 1px solid #e2e2e2;
   padding-bottom: 10px;
+}
+.right-footer-top-links {
+  text-decoration: none;
 }
